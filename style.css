@@ -125,7 +125,7 @@
 .products{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url('Images/fondo\ pr.webp');
+    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url('Images/fondo-promotions.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -184,4 +184,53 @@
 .products__product button:hover{
     background-color: #fb52e2;
     color: #fff;
+}
+/* Contacto */
+
+.contact{
+   height: 80vh;
+   background: url(Images/fondo-contacto.jpg);
+   background-position: center;
+}
+.contact h3{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px 50px;
+    border-radius: 15px;
+    background-color: rgb(47, 117, 152);
+    height: 400px;
+}
+label{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+input[type="text"]{
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+label{
+    color: #fff;
+}
+textarea{
+    padding: 20px 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+input[type="submit"]{
+    width: 100px;
+    margin: 40px auto;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: 500;
+    border: none;
 }
