@@ -16,6 +16,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
     />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -29,8 +30,8 @@
         <ul>
           <li><a href="#promociones">Promociones</a></li>
           <li><a href="#">Productos</a></li>
-          <li><a href="#">Acerca de</a></li>
           <li><a href="#">Contacto</a></li>
+          <li><a href="#">Nosotros</a></li>
         </ul>
       </div>
       <div class="header__content" id="promociones">
@@ -144,17 +145,32 @@
     </section>
     <section class="contact">
         <h3>Contacto</h3>
-        <form action="">
+        <form action="https://formsubmit.co/devecchi_nicolas.com" method="POST">
             <label for="name">Nombre</label>
-            <input type="text" id="name" placeholder="Escriba su nombre...">
+            <input type="text" id="name" name="name" placeholder="Escriba su nombre...">
             <label for="email">E-mail</label>
-            <input type="text" id="email" placeholder="Escriba su E-mail...">
+            <input type="text" id="email" name="email" placeholder="Escriba su E-mail...">
             <label for="description">Mensaje</label>
-            <textarea name="" id="description"></textarea>
+            <textarea name="description" id="description"></textarea>
             <input type="submit" value="Enviar">
 
         </form>
     </section>
+    <section class="footer">
+        <div class="footer__content">
+            <h3>Nosotros</h3>
+            <div class="footer__email">
+                <i class='bx bxs-envelope'></i>
+                <p>melatti@gmail.com</p>
+            </div>
+            <div class="footer__number">
+                <i class='bx bx-mobile' ></i>
+                <p>Tel: 11-6642-2223</p>
+            </div>
+            <img src="Images/map.jpg" alt="">
+        </div>
+
+      </section>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
